@@ -1,0 +1,85 @@
+<!DOCTYPE html><!--docktype declaration--> 
+<html lang="en"> 
+<head> 
+    <title>Tribute to Nikola Tesla</title> 
+    <style> 
+        h1{ 
+            color :red; 
+            font-size: 2.5em; 
+            font-style: italic; 
+        } 
+        blockquote{ 
+            font-style:italic; 
+        } 
+        body{ 
+            background-color: antiquewhite; 
+        } 
+        img{ 
+            width:20%; 
+            border-radius:100px; 
+            margin-top:20px; 
+        } 
+        h2{ 
+            font-style: oblique; 
+            color:rgb(192, 115, 0) 
+        } 
+        p{ 
+            weight:60%; 
+            font-size:smaller;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+            text-align: justify;
+        }
+        #likeButton {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #likeButton:hover {
+            background-color: #45a049;
+        }
+    </style> 
+</head> 
+<body> 
+    <h1> Tribute to Nikola Tesla... </h1> 
+    <img src="https://th.bing.com/th/id/OIP.kmucJyL6KasNdWQXjhgA_QHaEw?rs=1&pid=ImgDetMain" alt="Tesla's image"> 
+
+    <h2>Famous Quote</h2> 
+    <blockquote> 
+        "The present is theirs; the future, for which I really worked, is mine." <br> 
+        — Nikola Tesla 
+    </blockquote> 
+
+    <h2>The birth of a Genius</h2> 
+    <p>Nikola Tesla was born during a lightning storm on the night of July 9–10, 1856, in the village of Smiljan,<br> 
+    then part of the Austrian Empire (modern-day Croatia). 
+    According to legend, as Tesla's mother gave birth, a flash of lightning struck,<br> 
+    prompting the midwife to say he would be a "child of darkness." <br>
+    " His mother, however, responded, "No, he will be a child of light." 
+    This dramatic birth foreshadowed Tesla's future as a brilliant inventor who revolutionized electrical engineering.</p> 
+
+    <h2>Timeline of Nikola Tesla</h2> 
+    <ul> 
+        <li><strong>1856</strong> - Born in Smiljan, Austrian Empire.</li> 
+        <li><strong>1884</strong> - Moved to the U.S. and worked with Edison.</li> 
+        <li><strong>1888</strong> - Developed the AC motor.</li> 
+        <li><strong>1891</strong> - Invented the Tesla Coil.</li> 
+        <li><strong>1893</strong> - Demonstrated wireless power at the Chicago World’s Fair.</li> 
+        <li><strong>1943</strong> - Passed away, leaving a legacy of innovation.</li> 
+    </ul> 
+
+    <!-- Added the text and button below -->
+    <h2>Like if you are inspired by Tesla's work</h2>
+    <button id="likeButton">Like</button>
+
+    <script>
+        // JavaScript to display popup message
+        document.getElementById("likeButton").onclick = function() {
+            alert("Have a great day!");
+        }
+    </script>
+
+</body> 
+</html>
